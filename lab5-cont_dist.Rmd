@@ -1,0 +1,76 @@
+---
+title: 'Lab 5: Continuous Distributions'
+author: "Corey Katz"
+date: "due 11/6 at end of discussion"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Exponential Distribution
+The amount of time (in hours) a person spends waiting in a line at the DMV, X, follows and exponential distribution with rate 0.5. 
+
+Q1: What is the expected wait time of this person?
+```{r}
+#Code
+```
+
+Q2: What is the probability that the person waits between 1.5 and 2.5 hours?
+```{r}
+#Code
+```
+
+
+\newpage
+## Continuous Uniform Distribution
+In the next 94 minutes an alarm will go off randomly. 
+
+Q3: What is the probability that the alarm goes off in the first 15 minutes?
+```{r}
+#Code
+```
+
+Q4: what is the probability that the alarm goes off in the last 20 minutes?
+```{r}
+#Code
+```
+
+\newpage
+## Normal Distribution:
+The weights of female giraffes is believed to follow a normal distribution with a mean of 1815 pounds and standard deviation of 100 pounds. 
+
+
+Q5: What is the z-score of a randomly selected female giraffe the weighs 1600 pounds?
+```{r}
+#Code
+```
+
+
+Q6: What is the probability that a randomly selected female giraffe is between 1740 lbs. and 2100 lbs.?
+```{r}
+#Code
+```
+
+
+Q7: What is the probability that a randomly selected giraffes weights over 1810 lbs.?
+
+```{r}
+#Code
+```
+
+
+Q8: What is the third quartile of female giraffe weights?
+```{r}
+#Code
+```
+
+
+Q9: Fill in the blank: The top 10% heaviest female giraffes weigh more than _________ pounds.
+```{r}
+#Code
+```
+
+
