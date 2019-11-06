@@ -385,9 +385,19 @@ summary {
 <h2>Continuous Uniform Distribution</h2>
 <p>In the next 94 minutes an alarm will go off randomly.</p>
 <p>Q3: What is the probability that the alarm goes off in the first 15 minutes?</p>
-<pre class="r"><code>#Code</code></pre>
+<pre class="r"><code>15 / 94</code></pre>
+<pre><code>## [1] 0.1595745</code></pre>
+<pre class="r"><code># or
+
+punif(q = 15, min = 0, max = 94)</code></pre>
+<pre><code>## [1] 0.1595745</code></pre>
 <p>Q4: what is the probability that the alarm goes off in the last 20 minutes?</p>
-<pre class="r"><code>#Code</code></pre>
+<pre class="r"><code>20 / 94</code></pre>
+<pre><code>## [1] 0.212766</code></pre>
+<pre class="r"><code># or
+
+1 - punif(q = (94 - 20), min = 0, max = 94)</code></pre>
+<pre><code>## [1] 0.212766</code></pre>
 <div style="page-break-after: always;"></div>
 </div>
 <div id="normal-distribution" class="section level2">

@@ -33,12 +33,20 @@ In the next 94 minutes an alarm will go off randomly.
 
 Q3: What is the probability that the alarm goes off in the first 15 minutes?
 ```{r}
-#Code
+15 / 94
+
+# or
+
+punif(q = 15, min = 0, max = 94)
 ```
 
 Q4: what is the probability that the alarm goes off in the last 20 minutes?
 ```{r}
-#Code
+20 / 94
+
+# or
+
+1 - punif(q = (94 - 20), min = 0, max = 94)
 ```
 
 \newpage

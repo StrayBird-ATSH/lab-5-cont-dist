@@ -173,18 +173,50 @@ minutes?
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{#Code}
+\DecValTok{15} \OperatorTok{/}\StringTok{ }\DecValTok{94}
 \end{Highlighting}
 \end{Shaded}
+
+\begin{verbatim}
+## [1] 0.1595745
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# or}
+
+\KeywordTok{punif}\NormalTok{(}\DataTypeTok{q =} \DecValTok{15}\NormalTok{, }\DataTypeTok{min =} \DecValTok{0}\NormalTok{, }\DataTypeTok{max =} \DecValTok{94}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.1595745
+\end{verbatim}
 
 Q4: what is the probability that the alarm goes off in the last 20
 minutes?
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{#Code}
+\DecValTok{20} \OperatorTok{/}\StringTok{ }\DecValTok{94}
 \end{Highlighting}
 \end{Shaded}
+
+\begin{verbatim}
+## [1] 0.212766
+\end{verbatim}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\CommentTok{# or}
+
+\DecValTok{1} \OperatorTok{-}\StringTok{ }\KeywordTok{punif}\NormalTok{(}\DataTypeTok{q =}\NormalTok{ (}\DecValTok{94} \OperatorTok{-}\StringTok{ }\DecValTok{20}\NormalTok{), }\DataTypeTok{min =} \DecValTok{0}\NormalTok{, }\DataTypeTok{max =} \DecValTok{94}\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## [1] 0.212766
+\end{verbatim}
 
 \newpage
 
