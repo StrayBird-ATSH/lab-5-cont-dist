@@ -373,9 +373,12 @@ summary {
 <h2>Exponential Distribution</h2>
 <p>The amount of time (in hours) a person spends waiting in a line at the DMV, X, follows and exponential distribution with rate 0.5.</p>
 <p>Q1: What is the expected wait time of this person?</p>
-<pre class="r"><code>#Code</code></pre>
+<pre class="r"><code>rate = 0.5
+1 / rate</code></pre>
+<pre><code>## [1] 2</code></pre>
 <p>Q2: What is the probability that the person waits between 1.5 and 2.5 hours?</p>
-<pre class="r"><code>#Code</code></pre>
+<pre class="r"><code>pexp(q = 2.5, rate = 0.5) - pexp(q = 1.5, rate = 0.5)</code></pre>
+<pre><code>## [1] 0.1858618</code></pre>
 <div style="page-break-after: always;"></div>
 </div>
 <div id="continuous-uniform-distribution" class="section level2">

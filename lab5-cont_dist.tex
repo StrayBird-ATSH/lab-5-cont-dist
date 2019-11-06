@@ -138,18 +138,27 @@ Q1: What is the expected wait time of this person?
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{#Code}
+\NormalTok{rate =}\StringTok{ }\FloatTok{0.5}
+\DecValTok{1} \OperatorTok{/}\StringTok{ }\NormalTok{rate}
 \end{Highlighting}
 \end{Shaded}
+
+\begin{verbatim}
+## [1] 2
+\end{verbatim}
 
 Q2: What is the probability that the person waits between 1.5 and 2.5
 hours?
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{#Code}
+\KeywordTok{pexp}\NormalTok{(}\DataTypeTok{q =} \FloatTok{2.5}\NormalTok{, }\DataTypeTok{rate =} \FloatTok{0.5}\NormalTok{) }\OperatorTok{-}\StringTok{ }\KeywordTok{pexp}\NormalTok{(}\DataTypeTok{q =} \FloatTok{1.5}\NormalTok{, }\DataTypeTok{rate =} \FloatTok{0.5}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
+
+\begin{verbatim}
+## [1] 0.1858618
+\end{verbatim}
 
 \newpage
 
