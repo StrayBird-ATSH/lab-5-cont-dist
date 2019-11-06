@@ -232,44 +232,64 @@ Q5: What is the z-score of a randomly selected female giraffe the weighs
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{#Code}
+\DecValTok{1600} \OperatorTok{-}\StringTok{ }\DecValTok{1815}
 \end{Highlighting}
 \end{Shaded}
+
+\begin{verbatim}
+## [1] -215
+\end{verbatim}
 
 Q6: What is the probability that a randomly selected female giraffe is
 between 1740 lbs. and 2100 lbs.?
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{#Code}
+\KeywordTok{pnorm}\NormalTok{(}\DataTypeTok{q =} \DecValTok{2100}\NormalTok{, }\DataTypeTok{mean =} \DecValTok{1815}\NormalTok{, }\DataTypeTok{sd =} \DecValTok{100}\NormalTok{) }\OperatorTok{-}\StringTok{ }\KeywordTok{pnorm}\NormalTok{(}\DataTypeTok{q =} \DecValTok{1740}\NormalTok{, }\DataTypeTok{mean =} \DecValTok{1815}\NormalTok{, }\DataTypeTok{sd =} \DecValTok{100}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
+
+\begin{verbatim}
+## [1] 0.7711867
+\end{verbatim}
 
 Q7: What is the probability that a randomly selected giraffes weights
 over 1810 lbs.?
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{#Code}
+\DecValTok{1} \OperatorTok{-}\StringTok{ }\KeywordTok{pnorm}\NormalTok{(}\DataTypeTok{q =} \DecValTok{1810}\NormalTok{, }\DataTypeTok{mean =} \DecValTok{1815}\NormalTok{, }\DataTypeTok{sd =} \DecValTok{100}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
+
+\begin{verbatim}
+## [1] 0.5199388
+\end{verbatim}
 
 Q8: What is the third quartile of female giraffe weights?
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{#Code}
+\KeywordTok{qnorm}\NormalTok{(}\DataTypeTok{p =} \FloatTok{0.75}\NormalTok{, }\DataTypeTok{mean =} \DecValTok{1815}\NormalTok{, }\DataTypeTok{sd =} \DecValTok{100}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
+
+\begin{verbatim}
+## [1] 1882.449
+\end{verbatim}
 
 Q9: Fill in the blank: The top 10\% heaviest female giraffes weigh more
 than \_\_\_\_\_\_\_\_\_ pounds.
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\CommentTok{#Code}
+\KeywordTok{qnorm}\NormalTok{(}\DataTypeTok{p =} \FloatTok{0.9}\NormalTok{, }\DataTypeTok{mean =} \DecValTok{1815}\NormalTok{, }\DataTypeTok{sd =} \DecValTok{100}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
+
+\begin{verbatim}
+## [1] 1943.155
+\end{verbatim}
 
 
 \end{document}

@@ -56,32 +56,32 @@ The weights of female giraffes is believed to follow a normal distribution with 
 
 Q5: What is the z-score of a randomly selected female giraffe the weighs 1600 pounds?
 ```{r}
-#Code
+1600 - 1815
 ```
 
 
 Q6: What is the probability that a randomly selected female giraffe is between 1740 lbs. and 2100 lbs.?
 ```{r}
-#Code
+pnorm(q = 2100, mean = 1815, sd = 100) - pnorm(q = 1740, mean = 1815, sd = 100)
 ```
 
 
 Q7: What is the probability that a randomly selected giraffes weights over 1810 lbs.?
 
 ```{r}
-#Code
+1 - pnorm(q = 1810, mean = 1815, sd = 100)
 ```
 
 
 Q8: What is the third quartile of female giraffe weights?
 ```{r}
-#Code
+qnorm(p = 0.75, mean = 1815, sd = 100)
 ```
 
 
 Q9: Fill in the blank: The top 10% heaviest female giraffes weigh more than _________ pounds.
 ```{r}
-#Code
+qnorm(p = 0.9, mean = 1815, sd = 100)
 ```
 
 
