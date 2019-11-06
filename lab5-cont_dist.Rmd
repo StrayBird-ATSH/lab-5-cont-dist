@@ -1,6 +1,7 @@
 ---
 title: 'Lab 5: Continuous Distributions'
-author: "Corey Katz"
+subtitle: "75694189 16257626 13341225"
+author: "Chen Wang, Junke Wang, Zhuozhi Xiong"
 date: "due 11/6 at end of discussion"
 output: 
   pdf_document:
