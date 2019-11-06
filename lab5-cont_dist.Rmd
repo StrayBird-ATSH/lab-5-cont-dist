@@ -2,7 +2,9 @@
 title: 'Lab 5: Continuous Distributions'
 author: "Corey Katz"
 date: "due 11/6 at end of discussion"
-output: pdf_document
+output: 
+  pdf_document:
+    keep_tex: true
 ---
 
 ```{r setup, include=FALSE}
