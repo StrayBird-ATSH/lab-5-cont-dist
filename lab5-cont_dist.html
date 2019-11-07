@@ -405,8 +405,8 @@ punif(q = 15, min = 0, max = 94)</code></pre>
 <h2>Normal Distribution:</h2>
 <p>The weights of female giraffes is believed to follow a normal distribution with a mean of 1815 pounds and standard deviation of 100 pounds.</p>
 <p>Q5: What is the z-score of a randomly selected female giraffe the weighs 1600 pounds?</p>
-<pre class="r"><code>1600 - 1815</code></pre>
-<pre><code>## [1] -215</code></pre>
+<pre class="r"><code>(1600 - 1815) / 100</code></pre>
+<pre><code>## [1] -2.15</code></pre>
 <p>Q6: What is the probability that a randomly selected female giraffe is between 1740 lbs. and 2100 lbs.?</p>
 <pre class="r"><code>pnorm(q = 2100, mean = 1815, sd = 100) - pnorm(q = 1740, mean = 1815, sd = 100)</code></pre>
 <pre><code>## [1] 0.7711867</code></pre>

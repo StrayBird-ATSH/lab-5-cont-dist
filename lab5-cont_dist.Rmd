@@ -57,7 +57,7 @@ The weights of female giraffes is believed to follow a normal distribution with 
 
 Q5: What is the z-score of a randomly selected female giraffe the weighs 1600 pounds?
 ```{r}
-1600 - 1815
+(1600 - 1815) / 100
 ```
 
 
